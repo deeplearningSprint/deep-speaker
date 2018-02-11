@@ -13,7 +13,7 @@ def batch_cosine_similarity(x1, x2):
     # as values have have length 1, we don't need to divide by norm (as it is 1)
     return dot
 
-
+#why y_true is not used?
 def deep_speaker_loss(y_true, y_pred):
     logging.info('y_true={}'.format(y_true))
     logging.info('y_pred={}'.format(y_pred))
